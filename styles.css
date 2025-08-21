@@ -1,0 +1,36 @@
+.dchhlj {
+    width: 50px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    z-index: 1000;
+    padding: 1em;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.dchh {
+    display: flex;
+    justify-content: center;
+}
+.dchhwfzi {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.bnti {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
