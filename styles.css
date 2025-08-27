@@ -1,3 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+p {
+    text-indent: 2em;
+    line-height: 1.5;
+}
 .dchhlj {
     width: 50px;
 }
@@ -16,10 +23,50 @@ nav ul {
     padding: 0;
     display: flex;
 }
-nav ul li a {
+nav ul li a{
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    transform: all 0.3s ease;
+
+}
+nav ul li a:hover {
+    color: #ffd700;
+    transform: translateY(-5px);/* ... 其他代码 ... */
+
+.dchhlj {
+    /* 原代码：width: 50px; 这会限制导航栏宽度，导致显示异常 */
+    width: 100%; /* 修改为100%宽度以适应导航栏 */
+
+}
+nav {position: fixed;
+    top: 0;
+    left: ;0;right: 0;
+    background-color: #333;
+    z-index: 1000; padding: 1em;}nav ul {list-style: none;
+    margin: 0; padding: 0; display: flex;}nav ul li a{color: #fff; text-decoration: none; font-weight: bold;
+    /* 修改：将transform改为transition以实现过渡效果 */{{ transition: all0.3s ease; }}
+}
+nav ul li a:hover {color: #ffd700;
+    transform: translateY(-5px); /* 这个上浮效果是正确设置 */
+}
+.dchhlj {
+    /* 原代码：width: 50px; 这会限制导航栏宽度，导致显示异常 */
+    width: 100%; /* 修改为100%宽度以适应导航栏 */
+
+}
+nav {position: fixed;
+    top: 0;
+    left: ;0;right: 0;
+    background-color: #333;
+    z-index: 1000; padding: 1em;}nav ul {list-style: none;
+    margin: 0; padding: 0; display: flex;}nav ul li a{color: #fff; text-decoration: none; font-weight: bold;
+    /* 修改：将transform改为transition以实现过渡效果 */{{ transition: all0.3s ease; }}
+}
+nav ul li a:hover {color: #ffd700;
+    transform: translateY(-5px); /* 这个上浮效果是正确设置 */
+}/* ...其他代码... */
+
 }
 .dchh {
     display: flex;
@@ -30,7 +77,49 @@ nav ul li a {
     margin-right: 15px;
 }
 .bnti {
-    margin-top: 75px;
     display: flex;
     justify-content: center;
+}
+.nwrs {
+    margin: 75px auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+}
+h2,h3,h4,h5,h6 {
+    margin-left: 2em;    
+}
+*[id] {
+    scroll-margin-top: 75px;
+}
+.gryvwfzi {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+.gryvmokk {
+    background-color: #5c5a5a;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+.gryvnwrs {
+    display: flex;
+    flex-direction: column;
+}
+.hvdcdkbu a{
+    position: fixed;
+    bottom: 50px;
+    right: 90px;
+    background-color: #584e4e;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.ziyr {
+    text-indent: 2em;
 }
